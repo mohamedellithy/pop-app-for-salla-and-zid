@@ -1,0 +1,211 @@
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+        body {
+            font-family: 'Tajawal', 'Helvetica';
+            background: #111827;
+        }
+        
+        body>.container {
+            padding: 10px 0px;
+        }
+        
+        header nav {
+            padding: 0px 1.0%;
+        }
+        
+        header .logo {
+            width: 180px;
+            padding: 10px;
+        }
+        
+        header .sign a {
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .container-title-first {
+            max-width: 33rem;
+        }
+        
+        .container-title-first strong {
+            width: auto;
+        }
+        
+        #hero .text-rotate ul li {
+            font-size: 44px;
+        }
+        
+        .container-top-slider {
+            padding: 0px 40px;
+        }
+        
+        .btn-schedule-now {
+            padding: 0px 19px;
+            font-weight: bold;
+        }
+        
+        #components #tabs .w-icon {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        
+        .tabs-container .heading {
+            text-align: right;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+        
+        .tabs-container .description-tab {
+            text-align: right;
+            line-height: 1.5em;
+            width: 82%;
+            font-weight: 600;
+            margin-right: 50px;
+            margin-bottom: 40px;
+        }
+        
+        .tabs-container .link-go-to-tab {
+            font-weight: 600;
+        }
+        
+        .tabs-container .show-features li {
+            display: inline;
+            padding: 0px;
+        }
+        
+        .tabs-container .show-features li img {
+            width: auto;
+            display: inline;
+        }
+        
+        .tabs-container .show-features li label {
+            font-weight: 600;
+            font-size: 15px;
+        }
+        
+        .section-who-need-it {
+            padding-top: 0px;
+        }
+        
+        .section-who-need-it .text-who-need-it {
+            padding: 0px 15%;
+        }
+        
+        .section-who-need-it .text-who-need-it .subhead:after {
+            left: 3.5rem;
+        }
+        
+        .section-who-need-it .btn-register-now {
+            line-height: 26px;
+            font-weight: bold;
+            padding: 6px 35px;
+        }
+        
+        .section-who-need-it .container-image-half {
+            grid-column: span 5 / span 5 !important;
+        }
+        
+        .footer-text-who-need {
+            text-align: center;
+            padding: 22px;
+        }
+        
+        .section-who-need-it .text-who-need-it .heading {
+            margin-top: 50px;
+        }
+        
+        .section-who-need-it .text-who-need-it .leading {
+            font-size: 20px;
+            margin-top: 10%;
+        }
+        
+        #how .pointers:before {
+            width: 345px;
+            height: 85px;
+            right: -336px;
+            bottom: -87px;
+        }
+        
+        #how .pointers:after {
+            width: 343px;
+            height: 99px;
+            left: -343px;
+            top: -92px;
+            transform: scaleY(-1);
+        }
+        
+        #how .diagram div {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        
+        .section-faq .section-faq-content {
+            padding: 4% 4%;
+        }
+        
+        .accordionItemHeading {
+            font-size: 1.4rem;
+        }
+        
+        .section-faq-content-img {
+            padding: 1% 5%;
+        }
+        
+        .section-faq-content-text {
+            padding: 5%;
+        }
+        
+        footer {
+            padding: 0% 5%;
+        }
+        
+        @media(max-width:900px) {
+            #hero .text-rotate ul li {
+                font-size: 20px;
+            }
+            .left-1 {
+                left: 5.25rem;
+            }
+            #components .tabs-container {
+                padding: 0px 14px;
+            }
+            #hero .text *,
+            .heading,
+            .heading * {
+                line-height: 32px;
+            }
+            .tabs-container .heading {
+                margin-right: 18px;
+                padding-top: 25px;
+                margin-right: 30px;
+            }
+            .section-who-need-it .text-who-need-it {
+                padding: 0px 8%;
+            }
+            .section-who-need-it .text-who-need-it .subhead:after {
+                bottom: -0.5rem;
+            }
+            #how .diagram .pointers {
+                height: 185px;
+                margin-top: 60%;
+            }
+            #how .pointers:before {
+                background-size: contain !important;
+                width: 300px;
+                height: 40px;
+                right: -16px;
+                top: 65px;
+                transform: rotate(285deg);
+            }
+            #how .pointers:after {
+                background-size: contain !important;
+                width: 303px;
+                height: 40px;
+                left: -12px;
+                top: -186px;
+                transform: rotate(86deg) scale(-1) rotateX(178deg) translateX(0px);
+            }
+            .diagram.py-20 {
+                padding-top: 1rem;
+            }
+        }
